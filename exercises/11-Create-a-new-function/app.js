@@ -1,3 +1,13 @@
-/* This exercise is almost identical to 15-Random numbers - consider merging them here and using another concept for 15? */
+//declare your function here
 
-// Declare your function here
+function generateRandom(){
+    return Math.floor(Math.random() * 9 + 1);
+  }
+
+  console.log(generateRandom());
+
+// OPCION 2
+
+// function generateRandom(name){
+//     return Math.random() * 10;
+//   }
