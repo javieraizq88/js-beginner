@@ -1,3 +1,7 @@
+var age = prompt('What is your age?');
+
 // Your code below:
-var variablesAreCool = 2345  * 7323;
-console.log(variablesAreCool);
+var age2 = parseInt(age);
+
+
+console.log(age2+10);
