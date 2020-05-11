@@ -46,7 +46,6 @@ function addAllFamilyLuckyNumbers(doeFamily){
       for(var j=0; j < doeFamily.members[i].lucky_numbers.length ; j++){     
         sumOfAllLuckyNumbers += doeFamily.members[i].lucky_numbers[j];
       }
-    
   }
   
   return sumOfAllLuckyNumbers;

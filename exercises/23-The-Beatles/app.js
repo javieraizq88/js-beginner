@@ -18,4 +18,5 @@ function sing()
 	return lyrics;
 	
 }
+
 console.log(sing());
