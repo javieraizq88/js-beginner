@@ -43,10 +43,9 @@ function addAllFamilyLuckyNumbers(doeFamily){
   var sumOfAllLuckyNumbers = 0; //sumOfAllLuckyNumbers is a number, the sum of all lucky numbers.
   
   for(var i =0; i < doeFamily.members.length ; i++){
-      for(var j=0; j < doeFamily.members[i].lucky_numbers.length ; j++){
-      
-      sumOfAllLuckyNumbers += doeFamily.members[i].lucky_numbers[j];
-    }
+      for(var j=0; j < doeFamily.members[i].lucky_numbers.length ; j++){     
+        sumOfAllLuckyNumbers += doeFamily.members[i].lucky_numbers[j];
+      }
     
   }
   
