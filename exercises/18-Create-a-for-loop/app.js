@@ -6,7 +6,8 @@ function standardsMaker(){
     }
   }  
   
-
+// OPCION 2 
+//
 //   function standardsMaker(){
 // 	for (var i = 0; i<300;i++)
 // 	{
